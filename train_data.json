@@ -1,0 +1,1288 @@
+[
+  {
+    "text": "ligue o ar condicionado",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "por favor, ligar o ar da sala 302",
+    "intent": "ligar",
+    "entities": [
+      {"start": 25, "end": 34, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "comece a refrigerar a sala 12 agora",
+    "intent": "ligar",
+    "entities": [
+      {"start": 22, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ative o ar condicionado do escritório",
+    "intent": "ligar",
+    "entities": [
+      {"start": 27, "end": 37, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligue o ar agora",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "pode acionar o ar da sala 105?",
+    "intent": "ligar",
+    "entities": [
+      {"start": 21, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligar o sistema de refrigeração",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "ative o ar na cozinha",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 21, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligue o ar da sala 204, por favor",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero ligar o ar condicionado da sala 500",
+    "intent": "ligar",
+    "entities": [
+      {"start": 33, "end": 41, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, ative o ar no auditório",
+    "intent": "ligar",
+    "entities": [
+      {"start": 25, "end": 34, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligar o ar da sala 101",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "pode ligar o ar?",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "acionar o ar condicionado da sala 700",
+    "intent": "ligar",
+    "entities": [
+      {"start": 29, "end": 37, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligue o ar do quarto",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 20, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, ligue",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "ligar o ar na sala 303",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "poderia ativar o ar?",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "ativar o ar-condicionado",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "gostaria que o ar fosse ativado",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "estou ordenando a ativação do ar",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "ligue o ar da sala 400 agora",
+    "intent": "ligar",
+    "entities": [
+      {"start": 14, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "pode ligar o ar condicionado da sala 600?",
+    "intent": "ligar",
+    "entities": [
+      {"start": 32, "end": 40, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "ligar o ar, por favor",
+    "intent": "ligar",
+    "entities": []
+  },
+  {
+    "text": "desligue o ar condicionado",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "desligue o sistema de refrigeramento da sala 1",
+    "intent": "desligar",
+    "entities": [
+      {"start": 40, "end": 46, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, desligar o ar da sala 205",
+    "intent": "desligar",
+    "entities": [
+      {"start": 28, "end": 36, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desative o ar condicionado do escritório",
+    "intent": "desligar",
+    "entities": [
+      {"start": 30, "end": 40, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desligue o ar agora",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "pode desligar o ar da sala 108?",
+    "intent": "desligar",
+    "entities": [
+      {"start": 22, "end": 30, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desligar o sistema de ar condicionado",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "desative o ar na cozinha",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 24, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desligue o ar da sala 306, por favor",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 25, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero desligar o ar condicionado da sala 700",
+    "intent": "desligar",
+    "entities": [
+      {"start": 36, "end": 44, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, desative o ar no auditório",
+    "intent": "desligar",
+    "entities": [
+      {"start": 28, "end": 37, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desligar o ar da sala 404",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 25, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "pode desligar o ar?",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "desligar o ar condicionado da sala 800",
+    "intent": "desligar",
+    "entities": [
+      {"start": 30, "end": 38, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desligue o ar do quarto",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 23, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, desligue o ar condicionado",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "desligar o ar na sala 909",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 25, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "gostaria de desativar o ar",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "desligue o ar da sala 100 agora",
+    "intent": "desligar",
+    "entities": [
+      {"start": 17, "end": 25, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "pode desligar o ar condicionado da sala 200?",
+    "intent": "desligar",
+    "entities": [
+      {"start": 35, "end": 43, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desativar",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "apague o ar condicionado",
+    "intent": "desligar",
+    "entities": []
+  },
+  {
+    "text": "abaixar temperatura",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "tá quente na sala 8001",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 13, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "menos 8°C na sala",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 6, "end": 7, "label": "VALUE"},
+      {"start": 13, "end": 17, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "abaixe a temperatura da sala 1003",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 24, "end": 33, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero a cozinha mais fria",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 8, "end": 15, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "baixe 2 graus na sala 1036",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 6, "end": 7, "label": "VALUE"},
+      {"start": 17, "end": 32, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "o ambiente está muito quente",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 2, "end": 10, "label": "ROOM"}
+    ]
+  }, 
+  {
+    "text": "está muito quente na sala 3200",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 21, "end": 30, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "diminuir o calor na sala 2078 em 1 grau",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 20, "end": 29, "label": "ROOM"},
+      {"start": 33, "end": 34, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "refrigerar sala 69",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 11, "end": 18, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "coloque o ar condicionado na sala 3333 7 graus mais forte",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 29, "end": 38, "label": "ROOM"},
+      {"start": 39, "end": 40, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "refresque a sala 3111, está muito quente",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 12, "end": 21, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "reduza a temperatura da sala 2020 em 2 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 24, "end": 33, "label": "ROOM"},
+      {"start": 37, "end": 48, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixe a sala mais fria",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "deixe o ar da 1000 3 graus mais forte",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 14, "end": 18, "label": "ROOM"},
+      {"start": 19, "end": 20, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "aumente o frio",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "deixe a sala 30 mais fria",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 8, "end": 15, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "as pessoas estão com calor no auditorio 8",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 30, "end": 41, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "estou com calor na sala 4230",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 19, "end": 28, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "diminua a temperatura da sala 1111 em 2 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 25, "end": 34, "label": "ROOM"},
+      {"start": 38, "end": 39, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "estou derretendo na sala 3456",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 20, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "esfrie o ambiente",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 9, "end": 17, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "esfrie a sala 3010 em 2 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 9, "end": 18, "label": "ROOM"},
+      {"start": 22, "end": 23, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixa mais frio na sala 25",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 19, "end": 26, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero mais frio, por favor",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "aumente o frio",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "quero um aumento na refrigeração",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "incremente a temperatura da sala 9 em 7 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 28, "end": 34, "label": "ROOM"},
+      {"start": 38, "end": 39, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixe a sala mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 8, "end": 12, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "coloque o ar 2 graus mais forte na 4111",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 13, "end": 14, "label": "VALUE"},
+      {"start": 35, "end": 39, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "resfrie a 2021 em 6°C",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 10, "end": 14, "label": "ROOM"},
+      {"start": 18, "end": 19, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "refrigerar a sala 1078",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 13, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "está quente demais",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "o calor está insuportável",
+    "intent": "diminuir_temp", 
+    "entities": []
+  },
+  {
+    "text": "estão com calor na sala 512",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 19, "end": 28, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero o ar 3 graus mais forte na sala 8",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 11, "end": 12, "label": "VALUE"},
+      {"start": 33, "end": 39, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "tá pegando fogo na 1313",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 19, "end": 23, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "está uma sauna na 45, abaixe a temperatura em 7 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 18, "end": 20, "label": "ROOM"},
+      {"start": 46, "end": 47, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "está calor na sala",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 14, "end": 18, "label": "ROOM"}
+    ]
+
+  },
+  {
+    "text": "deixe a sala 23 menos quente",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 8, "end": 15, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "menos calor na sala 4",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 15, "end": 21, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "faça ficar menos quente",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "ar mais gelado na sala 2, por favor",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 18, "end": 24, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desce a temperatura da sala 555",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 23, "end": 31, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "resfria o ambiente da 7777",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 22, "end": 26, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "deixe o ambiente 4 graus mais fresco",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 17, "end": 18, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "essa sala mais parece um forno",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 5, "end": 9, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quente demais na sala 1009",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 17, "end": 26, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "deixe a sala 2099 9°C mais fresca",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 8, "end": 17, "label": "ROOM"},
+      {"start": 18, "end": 19, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "abaixe a temperatura em 5 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 24, "end": 25, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "diminua o calor no laboratório em 3 graus",
+    "intent": "diminuir_temp",
+    "entities": [
+      {"start": 19, "end": 30, "label": "ROOM"},
+      {"start": 34, "end": 35, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "a sala 5 não está quente o suficiente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 2, "end": 8, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "mais frio",
+    "intent": "diminuir_temp",
+    "entities": []
+  },
+  {
+    "text": "quero o laboratório 7001 5 graus mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 8, "end": 24, "label": "ROOM"},
+      {"start": 25, "end": 26, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "faça a sala 4 ficar mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 7, "end": 13, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumentar temperatura",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "deixe a temperatura mais alta",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "aquecimento da sala 1070 em 5 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 15, "end": 24, "label": "ROOM"},
+      {"start": 28, "end": 29, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "a sala 2223 precisa de mais calor",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 2, "end": 11, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumente a temperatura da sala",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 25, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "sala 2222 está muito fria",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 0, "end": 9, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero mais calor na 1077",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 20, "end": 24, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "esquente a sala 3033 em 7 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 11, "end": 20, "label": "ROOM"},
+      {"start": 24, "end": 25, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "quero que a sala 3140 esteja a 5 graus mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 12, "end": 21, "label": "ROOM"},
+      {"start": 31, "end": 32, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "quero o auditório 5 graus mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 8, "end": 17, "label": "ROOM"},
+      {"start": 18, "end": 19, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "mais calor",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "tá frio na sala 4200, aumenta aí",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 16, "end": 20, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "a sala 69 está fria demais",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 2, "end": 9, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "faça o calor aumentar no laboratório 4 em 5 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 25, "end": 38, "label": "ROOM"},
+      {"start": 42, "end": 43, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixa o recinto menos frio",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 8, "end": 15, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero menos frio por favor",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "não estou suportando o frio",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "diminua o frio da sala 9 em 3 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 18, "end": 24, "label": "ROOM"},
+      {"start": 28, "end": 29, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "preciso de mais calor na sala 15",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 25, "end": 32, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "faça a sala 4 ficar 1 grau mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 7, "end": 13, "label": "ROOM"},
+      {"start": 20, "end": 21, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "quero que a sala fique mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 12, "end": 16, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "está gelado na sala 4015",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 15, "end": 24, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "as pessoas estão com muito frio no auditório",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 35, "end": 44, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "esquente a sala 1016",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 11, "end": 20, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aquecimento da sala 1009 de 2 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 15, "end": 24, "label": "ROOM"},
+      {"start": 28, "end": 29, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "estou com frio na 2045",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 18, "end": 22, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumenta a temperatura da sala em 2 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 25, "end": 29, "label": "ROOM"},
+      {"start": 33, "end": 34, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "tá congelando na sala",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 17, "end": 21, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "esquente a sala em 1 grau",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 11, "end": 15, "label": "ROOM"},
+      {"start": 19, "end": 20, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "tá muito frio na sala 4001",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 17, "end": 26, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "desejo uma diminuição do frio na sala 6",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 33, "end": 39, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "diminua a potência do ar-condicionado",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "essa sala parece uma geladeira",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 5, "end": 9, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumente o calor da sala em 8 graus",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 19, "end": 23, "label": "ROOM"},
+      {"start": 27, "end": 28, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "está frio",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "a sala 4 está fria demais, deixe ela menos fria",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 2, "end": 8, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "mais 3 graus na sala 3201",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 5, "end": 6, "label": "VALUE"},
+      {"start": 16, "end": 25, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumentar 4 graus na sala 2211",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 9, "end": 10, "label": "VALUE"},
+      {"start": 20, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "preciso de mais calor",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "necessito de um aumento no calor",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "quero uma sala mais quente",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 10, "end": 14, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero mais calor por aqui",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "aqueça a sala",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "desejo um aumento no aquecimento",
+    "intent": "aumentar_temp",
+    "entities": []
+  },
+  {
+    "text": "a sala 3122 está gelando",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 2, "end": 11, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "aumente 3 graus na 4300",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 8, "end": 9, "label": "VALUE"},
+      {"start": 19, "end": 23, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "por favor, aumente 4 graus na cozinha",
+    "intent": "aumentar_temp",
+    "entities": [
+      {"start": 19, "end": 20, "label": "VALUE"},
+      {"start": 30, "end": 37, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a temperatura da sala 5002?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 22, "end": 31, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "me diga o valor atual do termostato na sala 3",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 39, "end": 45, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a indicação de temperatura atual?",
+    "intent": "consultar_temp",
+    "entities": []
+  },
+  {
+    "text": "mostre a temperatura atual da sala",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 30, "end": 34, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "gostaria de saber quantos graus fazem agora no auditório",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 47, "end": 56, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "que temperatura está na minha sala?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 30, "end": 34, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quao frio está a sala agora?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 5, "end": 9, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "temperatura atual na sala 583",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 21, "end": 29, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a temperatura na 4021?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 22, "end": 26, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quero saber quantos graus na sala 1101",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 29, "end": 38, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual é a temperatura da 1020?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 24, "end": 28, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a temperatura do ambiente 1002?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 31, "end": 35, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quantos graus está a sala 4040?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 21, "end": 30, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a temperatura ambiente na 1234?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 31, "end": 35, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "qual a temperatura na sala 7777?",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 22, "end": 31, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "me informe a temperatura atual do ambiente",
+    "intent": "consultar_temp",
+    "entities": [
+      {"start": 34, "end": 42, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "quanto de calor está fazendo agora?",
+    "intent": "consultar_temp",
+    "entities": []
+  },
+  {
+    "text": "defina a temperatura para 22 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 26, "end": 28, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "ajuste o ar para 18°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 17, "end": 19, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "coloque a sala 203 em 21 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 10, "end": 18, "label": "ROOM"},
+      {"start": 22, "end": 24, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "programe o ar condicionado para 19 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 32, "end": 34, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "mude a temperatura da sala 305 para 23°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 22, "end": 30, "label": "ROOM"},
+      {"start": 36, "end": 38, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixe o ambiente em 20 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 20, "end": 22, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "configurar o ar da sala 401 para 24 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 19, "end": 27, "label": "ROOM"},
+      {"start": 33, "end": 35, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "quero que a temperatura fique em 17°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 33, "end": 35, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "ajuste para 25 graus no escritório",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 12, "end": 14, "label": "VALUE"},
+      {"start": 24, "end": 34, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "defina o ar condicionado da sala 107 em 18 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 28, "end": 36, "label": "ROOM"},
+      {"start": 40, "end": 42, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "mantenha a temperatura em 22°C na sala 208",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 26, "end": 28, "label": "VALUE"},
+      {"start": 34, "end": 42, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "regule o ar para 16 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 17, "end": 19, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "fixe a temperatura em 19 graus na cozinha",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 22, "end": 24, "label": "VALUE"},
+      {"start": 34, "end": 41, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "deixe a sala 309 em 20°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 8, "end": 16, "label": "ROOM"},
+      {"start": 20, "end": 22, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "coloque o ar condicionado em 18 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 29, "end": 31, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "programe a temperatura do auditório para 21°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 26, "end": 35, "label": "ROOM"},
+      {"start": 41, "end": 43, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "mude para 24 graus na sala 505",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 10, "end": 12, "label": "VALUE"},
+      {"start": 22, "end": 30, "label": "ROOM"}
+    ]
+  },
+  {
+    "text": "defina a climatização para 17 graus",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 27, "end": 29, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "ajuste a temperatura da sala 601 para 19°C",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 24, "end": 32, "label": "ROOM"},
+      {"start": 38, "end": 40, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "quero 23 graus no quarto",
+    "intent": "setar_temp",
+    "entities": [
+      {"start": 6, "end": 8, "label": "VALUE"},
+      {"start": 18, "end": 24, "label": "ROOM"}
+    ]
+  },
+
+  {"text": "olá", "entities": [], "intent": "no_intent"},
+  {"text": "bom dia", "entities": [], "intent": "no_intent"},
+  {"text": "como você está?", "entities": [], "intent": "no_intent"},
+  {"text": "tchau", "entities": [], "intent": "no_intent"},
+  {"text": "qual é a hora?", "entities": [], "intent": "no_intent"},
+  {"text": "obrigado", "entities": [], "intent": "no_intent"},
+  {"text": "de nada", "entities": [], "intent": "no_intent"},
+  {"text": "por favor", "entities": [], "intent": "no_intent"},
+  {"text": "quanto custa?", "entities": [], "intent": "no_intent"},
+  {"text": "eu não sei", "entities": [], "intent": "no_intent"},
+  {"text": "não entendi", "entities": [], "intent": "no_intent"},
+  {"text": "tudo bem", "entities": [], "intent": "no_intent"},
+  {"text": "parabéns", "entities": [], "intent": "no_intent"},
+  {"text": "como vai?", "entities": [], "intent": "no_intent"},
+  {"text": "estou cansado", "entities": [], "intent": "no_intent"},
+  {"text": "me avise", "entities": [], "intent": "no_intent"},
+  {"text": "qual é o seu nome?", "entities": [], "intent": "no_intent"},
+  {"text": "pode me ajudar?", "entities": [], "intent": "no_intent"},
+  {"text": "isso não faz sentido", "entities": [], "intent": "no_intent"},
+  {"text": "não sei o que fazer", "entities": [], "intent": "no_intent"},
+  {"text": "você está ocupado?", "entities": [], "intent": "no_intent"},
+  {"text": "estou com fome", "entities": [], "intent": "no_intent"},
+  {"text": "vamos sair", "entities": [], "intent": "no_intent"},
+  {"text": "eu não quero", "entities": [], "intent": "no_intent"},
+  {"text": "isso não é bom", "entities": [], "intent": "no_intent"},
+  {"text": "onde fica a estação?", "entities": [], "intent": "no_intent"},
+  {"text": "preciso de ajuda", "entities": [], "intent": "no_intent"},
+  {"text": "isso é engraçado", "entities": [], "intent": "no_intent"},
+  {"text": "estou perdido", "entities": [], "intent": "no_intent"}
+
+]
