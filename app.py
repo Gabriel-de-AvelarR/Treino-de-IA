@@ -1,19 +1,13 @@
-from flask import Flask, render_template, request, jsonify
-from chatbot import Chatbot
+from flask import Flask, render_template
+from routes import bp
 
 app = Flask(__name__)
-chatbot = Chatbot()
+app.register_blueprint(bp)
 
 @app.route("/")
-def index(): 
+def index():
     return render_template("index.html")
 
-@app.route("/chat", methods = ["POST"])
-def chat():
-    data = request.json
-    user_input = data.get("message", "")
 
-    intent, entities = chatbot.model_analysis(user_input)
-
-    if not intent:
-        return jsonify({"response": "Desculpa nao "})
+if __name__ == '__main__':
+    app.run(debug = True)

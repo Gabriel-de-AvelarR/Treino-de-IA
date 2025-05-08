@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle por texto</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'style.css') }}">
+</head>
+
+<body>
+    <div class="chatbox">
+        <div class="chatlog" id="chatlog"></div>
+        <input type="text" id="user_input" placeholder="Digite seu comando..."/>
+    </div>
+
+    <script>
+        let currentState = null;
+
+        document.getElementById("user_input").addEventListener("keypress", function(event){
+            if (event.key === 'Enter'){
+                const userInput = document.getElementById("user_input").value;
+                document.getElementById("user_input").value = "";   
+
+                const chatlog = document.getElementById("chatlog");
+                chatlog.innerHTML += `<div class = "user-msg">${userInput}</div>`;
+
+                fetch("/api/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        message: userInput, 
+                        state: currentState
+                    })
+                })
+
+                .then(response => response.json())
+                .then(data=> {
+                    if (data.status === "missing_info") {
+                        currentState = {
+                            intent: data.intent,
+                            entities: data.current_entities,
+                            missing: data.missing_entities
+                        };
+
+                        console.log(data.missing_entities)
+
+                        // Só mostra a pergunta atual
+                        const questionText = data.questions;
+                        chatlog.innerHTML += `<div class="chat-msg">${questionText}</div>`;
+                    } else if (data.status === "sucess") {
+                        chatlog.innerHTML += `<div class="chat-msg">${data.response}</div>`;
+                        currentState = null;
+                    } else {
+                        chatlog.innerHTML += `<div class="chat-msg error">${data.message}</div>`;
+                    }
+
+                    chatlog.scrollTop = chatlog.scrollHeight;
+                })
+
+                .catch(error => {
+                    chatlog.innerHTML += `<div class = "chat-msg error"> Erro: ${error}</div>`;
+                });
+            }
+        });
+        
+
+    </script>
+</body>
+
+
+
+</html>
