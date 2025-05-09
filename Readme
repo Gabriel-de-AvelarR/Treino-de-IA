@@ -1,6 +1,6 @@
 .
 ├── models
-    ├── model-best
+|   ├── model-best
 │   └── model-last
 ├── chatbot
 |   ├── __init__.py
