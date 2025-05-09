@@ -1,0 +1,26 @@
+.
+├── models
+    ├── model-best
+│   └── model-last
+├── chatbot
+|   ├── __init__.py
+|   ├── core.py
+│   └── training
+│       ├── config.cfg
+│       ├── evaluate.sh
+│       ├── SBERT.py
+│       ├── test.py
+│       └── train.py
+├── data
+|   ├── check_data.py
+│   ├── raw
+│       └── train_data.json
+|   └── processed
+│       ├── dev.spacy
+│       └── train.spacy
+├── static
+|   ├── style.css
+├── templates
+|   ├── index.html
+├── routes.py
+└── app.py
