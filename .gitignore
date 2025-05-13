@@ -6,3 +6,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.log
+# Ignore node_modules
+node_modules/
+dist/
+.env

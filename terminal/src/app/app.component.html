@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="chatbox">
+    <div class="chatlog" #chatlog>
+      <div *ngFor="let msg of messages" [ngClass]="msg.type">
+        {{ msg.text }}
+      </div>
+    </div>
+    <input
+      type="text"
+      [(ngModel)]="userInput"
+      (keydown.enter)="sendMessage()"
+      placeholder="Digite seu comando..."
+    />
+  </div>
+</div>

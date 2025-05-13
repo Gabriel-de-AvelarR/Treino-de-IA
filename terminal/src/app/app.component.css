@@ -1,0 +1,81 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1px;
+}
+
+.chatbox {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.chatlog {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Mensagens */
+.user-msg {
+    background-color: rgba(208, 240, 192, 0.8);
+    color: #2e6b2f;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-end;
+}
+.user-msg::before {
+    content: 'Usuário:';
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.chat-msg {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+}
+.chat-msg::before {
+    content: 'Bot:';
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Input */
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    font-size: 16px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffff;
+}
+
+/* Estilo para o texto do placeholder */
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
