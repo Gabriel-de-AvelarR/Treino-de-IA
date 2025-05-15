@@ -1,8 +1,7 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
-import { CommonModule } from '@angular/common';  // Importar CommonModule
-import { FormsModule } from '@angular/forms';    // Importar FormsModule
-import { HttpClient } from '@angular/common/http';  // Adicione esta linha
-
+import { Component, ViewChild, ElementRef, AfterViewChecked } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 interface ChatResponse {
   status: string;
@@ -16,12 +15,12 @@ interface ChatResponse {
 
 @Component({
   selector: 'app-root',
-  standalone: true,  // Para indicar que o componente é autônomo
-  imports: [CommonModule, FormsModule],  // Adicionar os módulos necessários aqui
+  standalone: true,
+  imports: [CommonModule, FormsModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewChecked {
   userInput = '';
   messages: { text: string; type: string }[] = [];
   currentState: any = null;
@@ -55,16 +54,22 @@ export class AppComponent {
         } else {
           this.messages.push({ text: data.message, type: 'chat-msg error' });
         }
-        setTimeout(() => this.scrollToBottom(), 0);
       },
       error: (err: any) => {
         this.messages.push({ text: 'Erro: ' + err.message, type: 'chat-msg error' });
-        this.scrollToBottom();
       }
     });
   }
 
+  ngAfterViewChecked() {
+    this.scrollToBottom();
+  }
+
   scrollToBottom() {
-    this.chatlog.nativeElement.scrollTop = this.chatlog.nativeElement.scrollHeight;
+    try {
+      this.chatlog.nativeElement.scrollTop = this.chatlog.nativeElement.scrollHeight;
+    } catch (err) {
+      // falha silenciosa caso o elemento ainda não esteja disponível
+    }
   }
 }

@@ -290,6 +290,21 @@
     "intent": "diminuir a temperatura",
     "entities": []
   },
+    {
+    "text": "diminuir a temperatura",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
+    {
+    "text": "eu quero que diminua a temperatura",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
+  {
+    "text": "faça a temperatura ficar mais baixa",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
   {
     "text": "diminuir a temperatura da sala 15 em 3 graus",
     "intent": "diminuir a temperatura",
@@ -307,6 +322,11 @@
   },
   {
     "text": "aumente a potência do ar condicionado",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
+    {
+    "text": "faça o ar ficar mais potente",
     "intent": "diminuir a temperatura",
     "entities": []
   },
@@ -359,11 +379,6 @@
       {"start": 20, "end": 29, "label": "ROOM"}
     ]
   },
-  {
-    "text": "diminua o ar",
-    "intent": "diminuir a temperatura",
-    "entities": []
-  },  
   {
     "text": "está muito quente na sala 3200",
     "intent": "diminuir a temperatura",
@@ -421,6 +436,16 @@
   },
   {
     "text": "deixe a sala mais fria",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
+  {
+    "text": "faça com que a sala fique mais fria",
+    "intent": "diminuir a temperatura",
+    "entities": []
+  },
+  {
+    "text": "quero essa sala mais fria",
     "intent": "diminuir a temperatura",
     "entities": []
   },
@@ -503,6 +528,13 @@
       {"start": 22, "end": 23, "label": "VALUE"}
     ]
   },
+    {
+    "text": "está muito calor no auditorio",
+    "intent": "diminuir a temperatura",
+    "entities": [
+      {"start": 20, "end": 29, "label": "ROOM"}
+    ]
+  },
   {
     "text": "deixa mais frio na sala 25",
     "intent": "diminuir a temperatura",
@@ -526,21 +558,6 @@
     "entities": []
   },
   {
-    "text": "incremente a temperatura da sala 9 em 7 graus",
-    "intent": "aumentar a temperatura",
-    "entities": [
-      {"start": 28, "end": 34, "label": "ROOM"},
-      {"start": 38, "end": 39, "label": "VALUE"}
-    ]
-  },
-  {
-    "text": "deixe a sala mais quente",
-    "intent": "aumentar a temperatura",
-    "entities": [
-      {"start": 8, "end": 12, "label": "ROOM"}
-    ]
-  },
-  {
     "text": "coloque o ar 2 graus mais forte na 4111",
     "intent": "diminuir a temperatura",
     "entities": [
@@ -562,6 +579,11 @@
     "entities": [
       {"start": 13, "end": 22, "label": "ROOM"}
     ]
+  },
+  {
+    "text": "mais frio",
+    "intent": "diminuir a temperatura",
+    "entities": []
   },
   {
     "text": "está quente demais",
@@ -696,16 +718,26 @@
     ]
   },
   {
+    "text": "incremente a temperatura da sala 9 em 7 graus",
+    "intent": "aumentar a temperatura",
+    "entities": [
+      {"start": 28, "end": 34, "label": "ROOM"},
+      {"start": 38, "end": 39, "label": "VALUE"}
+    ]
+  },
+  {
+    "text": "deixe a sala mais quente",
+    "intent": "aumentar a temperatura",
+    "entities": [
+      {"start": 8, "end": 12, "label": "ROOM"}
+    ]
+  },
+  {
     "text": "a sala 5 não está quente o suficiente",
     "intent": "aumentar a temperatura",
     "entities": [
       {"start": 2, "end": 8, "label": "ROOM"}
     ]
-  },
-  {
-    "text": "mais frio",
-    "intent": "diminuir a temperatura",
-    "entities": []
   },
   {
     "text": "quero o laboratório 7001 5 graus mais quente",
@@ -726,16 +758,26 @@
     "entities": []
   },
   {
+    "text": "reduza a potência do ar",
+    "intent": "aumentar a temperatura",
+    "entities": []
+  },
+  {
+    "text": "deixe a potência do ar mais baixa",
+    "intent": "aumentar a temperatura",
+    "entities": []
+  },
+    {
+    "text": "faça ar condicionado ficar mais fraco",
+    "intent": "aumentar a temperatura",
+    "entities": []
+  },
+  {
     "text": "faça a sala 4 ficar mais quente",
     "intent": "aumentar a temperatura",
     "entities": [
       {"start": 7, "end": 13, "label": "ROOM"}
     ]
-  },
-  {
-    "text": "aumente o ar condicionado",
-    "intent": "aumentar a temperatura",
-    "entities": []
   },
   {
     "text": "suba o ar",

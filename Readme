@@ -1,16 +1,20 @@
 .
+├── chatbot
+|   ├── app.py
+|   ├── core.py
+│   └── routes.py
+|
 ├── models
 |   ├── model-best
 │   └── model-last
-├── chatbot
-|   ├── __init__.py
-|   ├── core.py
-│   └── training
-│       ├── config.cfg
-│       ├── evaluate.sh
-│       ├── SBERT.py
-│       ├── test.py
-│       └── train.py
+|
+├── training
+│   ├── config.cfg
+│   ├── evaluate.sh
+│   ├── SBERT.py
+│   ├── test.py
+│   └── train.py
+|
 ├── data
 |   ├── check_data.py
 │   ├── raw
@@ -18,9 +22,6 @@
 |   └── processed
 │       ├── dev.spacy
 │       └── train.spacy
-├── static
-|   ├── style.css
-├── templates
-|   ├── index.html
-├── routes.py
-└── app.py
+|
+└── terminal
+    └── ..

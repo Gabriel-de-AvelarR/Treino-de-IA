@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from chatbot.core import Chatbot
+from core import Chatbot
 
 bp = Blueprint('chatbot_routes', __name__)
 

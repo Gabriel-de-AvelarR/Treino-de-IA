@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 from pathlib import Path
 PARENT_DIR = Path(__file__).parent
-BASE_DIR = Path(__file__).parent.parent.parent
+BASE_DIR = Path(__file__).parent.parent
 
 MODELS_DIR = BASE_DIR/"models"
 DATA_PROCESSED_DIR = BASE_DIR/"data"/"processed"

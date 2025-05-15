@@ -1,12 +1,12 @@
 import spacy
 from pathlib import Path
 
-default_models_dir = Path(__file__).parent.parent.parent/"models"
+default_models_dir = Path(__file__).parent.parent/"models"
 model_path = default_models_dir/"model-best"
 
 nlp = spacy.load(model_path)
 
-texto = "está muito calor no auditorio"
+texto = "deixe a sala menos quente"
 
 doc = nlp(texto)
 

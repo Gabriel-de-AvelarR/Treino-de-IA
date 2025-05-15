@@ -119,6 +119,5 @@ class Chatbot:
             "ajustar a temperatura": f"Ok, ajustarei a temperatura da sala {room} em {value} graus.",
             "no_intent": "Comando não listado, em que posso te ajudar?"
         }
-
-        print(responses.get(intent))
+        
         return responses.get(intent)
