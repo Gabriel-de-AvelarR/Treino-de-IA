@@ -1,28 +1,36 @@
-version: '3.8'
-
 services:
   backend:
-    build:
-      context: .
-      dockerfile: Dockerfile.backend
-    container_name: flask-backend
-    ports: 
+    build: 
+      context: ./chatbot
+      dockerfile: Dockerfile
+    container_name: chatbot-backend
+    ports:
       - "5000:5000"
-    volumes:
-      - .:/app
     networks:
       - app-network
 
   frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile.frontend
-    container_name: angular-frontend
-    ports: 
-      - "4200:80"
+    build: 
+      context: ./terminal
+      dockerfile: Dockerfile
+    container_name: terminal-frontend
+    ports:
+      - "4200:4200"
+    depends_on:
+      - backend
     networks:
       - app-network
-    
+
+  training-service:
+    build: 
+      context: ./training
+      dockerfile: Dockerfile
+    container_name: chatbot-training
+    networks:
+      - app-network
+    stdin_open: true
+    tty: true
+
 networks:
   app-network:
     driver: bridge

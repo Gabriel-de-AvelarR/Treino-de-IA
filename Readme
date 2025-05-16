@@ -11,7 +11,6 @@
 ├── training
 │   ├── config.cfg
 │   ├── evaluate.sh
-│   ├── SBERT.py
 │   ├── test.py
 │   └── train.py
 |
