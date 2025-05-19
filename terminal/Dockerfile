@@ -1,10 +1,12 @@
-FROM node:22.15.0-alpine
+FROM node:22.15.0
 
 WORKDIR /app
 
 COPY . .
 
+RUN npm cache clean --force
 RUN npm install -g @angular/cli && npm install 
+RUN ls -la && cat angular.json
 
 
 EXPOSE 4200

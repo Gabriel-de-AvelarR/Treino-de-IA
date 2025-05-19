@@ -1,9 +1,10 @@
 FROM python:3.11-slim
 
-WORKDIR /app
+WORKDIR /.
 
-COPY ../models ./models
-COPY ..data/ ./data
+COPY training .
+COPY data ./data
+COPY models ./models
 
 RUN pip install --no-cache-dir -r requirements.txt
 

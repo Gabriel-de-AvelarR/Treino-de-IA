@@ -1,8 +1,8 @@
 services:
   backend:
     build: 
-      context: ./chatbot
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: chatbot/Dockerfile
     container_name: chatbot-backend
     ports:
       - "5000:5000"
@@ -23,8 +23,8 @@ services:
 
   training-service:
     build: 
-      context: ./training
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: training/Dockerfile
     container_name: chatbot-training
     networks:
       - app-network
@@ -33,4 +33,7 @@ services:
 
 networks:
   app-network:
+    driver: bridge
+
+  default:
     driver: bridge
