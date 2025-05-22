@@ -1,10 +1,8 @@
 import os 
 import spacy
-import thinc
-
 from spacy.tokens import DocBin
 from spacy.cli.train import train
-from thinc.api import get_current_ops, set_gpu_allocator, require_gpu
+from thinc.api import set_gpu_allocator, require_gpu
 
 #configuraceos de GPU
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
