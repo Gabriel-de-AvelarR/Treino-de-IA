@@ -1,25 +1,15 @@
 import os 
-import cupy
 import spacy
-import torch
 import thinc
 
 from spacy.tokens import DocBin
 from spacy.cli.train import train
 from thinc.api import get_current_ops, set_gpu_allocator, require_gpu
 
-print(cupy.__version__)
-print(cupy.cuda.is_available())
-
-
 #configuraceos de GPU
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 set_gpu_allocator("pytorch")
 require_gpu(0)
-
-#verificacoes
-print(f"Dispositivo Pytorch ativo: {torch.cuda.get_device_name(0)}")
-print(f"Backend ativo: {get_current_ops().name}")
 
 
 import json
