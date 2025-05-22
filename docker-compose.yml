@@ -25,6 +25,22 @@ services:
     build: 
       context: .
       dockerfile: training/Dockerfile
+    runtime: nvidia
+    environment:
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - NVIDIA_VISIBLE_DEVICES=0
+      - CUDA_VISIBLE-DEVICES-0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ./training/train.py:/train.py
+      - ./training/config.cfg:/config.cfg
+      - ./models:/models    
     container_name: chatbot-training
     networks:
       - app-network
