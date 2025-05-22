@@ -1,6 +1,26 @@
-import spacy 
+import os 
+import cupy
+import spacy
+import torch
+import thinc
+
 from spacy.tokens import DocBin
-from spacy.cli.train import train 
+from spacy.cli.train import train
+from thinc.api import get_current_ops, set_gpu_allocator, require_gpu
+
+print(cupy.__version__)
+print(cupy.cuda.is_available())
+
+
+#configuraceos de GPU
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+set_gpu_allocator("pytorch")
+require_gpu(0)
+
+#verificacoes
+print(f"Dispositivo Pytorch ativo: {torch.cuda.get_device_name(0)}")
+print(f"Backend ativo: {get_current_ops().name}")
+
 
 import json
 import random
@@ -16,7 +36,6 @@ DATA_RAW_PATH = BASE_DIR/"data"/"raw"/"train_data.json"
 
 DATA_PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 MODELS_DIR.mkdir(exist_ok=True)
-
 
 nlp = spacy.load("pt_core_news_lg")
 
@@ -61,7 +80,9 @@ create_docbin(dev_examples, "dev.spacy")
 
 train(str(PARENT_DIR/"config.cfg"), output_path=str(MODELS_DIR), overrides={
     "paths.train": str(DATA_PROCESSED_DIR/"train.spacy"),  
-    "paths.dev": str(DATA_PROCESSED_DIR/"dev.spacy")})
+    "paths.dev": str(DATA_PROCESSED_DIR/"dev.spacy")
+    },
+      use_gpu = 0)
 
 dev_nlp = spacy.load(str(MODELS_DIR/ "model-best"))
 dev_db = DocBin().from_disk(str(DATA_PROCESSED_DIR/"dev.spacy"))
