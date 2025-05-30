@@ -1,7 +1,11 @@
 .
+├── docker-compose.yml
+|
 ├── chatbot
 |   ├── app.py
 |   ├── core.py
+|   ├── Dockerfile
+|   ├── requirements.txt
 │   └── routes.py
 |
 ├── models
@@ -10,7 +14,9 @@
 |
 ├── training
 │   ├── config.cfg
-│   ├── evaluate.sh
+│   ├── Dockerfile
+|   ├── evaluate.sh
+|   ├── requirements.txt
 │   ├── test.py
 │   └── train.py
 |
