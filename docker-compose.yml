@@ -3,6 +3,8 @@ services:
     build: 
       context: .
       dockerfile: chatbot/Dockerfile
+    volumes:
+      - ./models:/models
     container_name: chatbot-backend
     ports:
       - "5000:5000"
@@ -40,7 +42,8 @@ services:
     volumes:
       - ./training/train.py:/train.py
       - ./training/config.cfg:/config.cfg
-      - ./models:/models    
+      - ./models:/models
+      - ./spacy_logs:/logs    
     container_name: chatbot-training
     networks:
       - app-network

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-py -m spacy evaluate models/model-best data/processed/dev.spacy
+python3 -m spacy evaluate ../models/model-best ../data/processed/dev.spacy
