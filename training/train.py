@@ -71,7 +71,7 @@ create_docbin(dev_examples, "dev.spacy")
 
 
 ################ CONFIGURACAO DE GPU ################
-'''
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 set_gpu_allocator("pytorch")
 try:
@@ -79,7 +79,6 @@ try:
     print("Usando a GPU")
 except Exception:
     print("GPU nao disponivel, usando CPU")
-'''
 
 ################ BENCHMARK CPU VS GPU ####################
 def benchmark():
