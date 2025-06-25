@@ -62,4 +62,4 @@ def send_command(intent, entities):
         return False
 
 
-send_command("desligar", {"ROOM": "1"})
+#send_command("ligar", {"ROOM": "1"})

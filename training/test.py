@@ -6,7 +6,7 @@ model_path = default_models_dir/"model-best"
 
 nlp = spacy.load(model_path)
 
-texto = "deixe a sala menos quente"
+texto = "aumentar"
 
 doc = nlp(texto)
 

@@ -51,8 +51,9 @@ export class AppComponent implements AfterViewChecked {
         } else if (data.status === 'sucess') {
           this.messages.push({ text: data.response ?? 'Sem resposta.', type: 'chat-msg' });
           this.currentState = null;
-        } else {
-          this.messages.push({ text: data.message, type: 'chat-msg error' });
+        } else if(data.status === 'error'){
+          this.messages.push({ text: data.message ?? 'Sem resposta.', type: 'chat-msg error' });
+          this.currentState = null;
         }
       },
       error: (err: any) => {

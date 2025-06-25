@@ -5,6 +5,7 @@ services:
       dockerfile: chatbot/Dockerfile
     volumes:
       - ./models:/models
+      - ./chatbot/core.py:/core.py
     container_name: chatbot-backend
     ports:
       - "5000:5000"
@@ -16,6 +17,8 @@ services:
       context: ./terminal
       dockerfile: Dockerfile
     container_name: terminal-frontend
+    expose:
+      - "4200"
     ports:
       - "4200:4200"
     depends_on:
