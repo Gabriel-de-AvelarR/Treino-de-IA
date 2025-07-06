@@ -62,7 +62,7 @@ class Chatbot:
 
         # Comunicação MQTT
         if(intent in ["ligar", "desligar", "aumentar a temperatura", "diminuir a temperatura", "ajustar a temperatura"]):
-            success = send_command(intent, entities)
+            success = True #send_command(intent, entities)
             if not success:
                 return self.build_error("Falha na comunicação com o dispositivo IoT")
 

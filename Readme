@@ -2,6 +2,7 @@
 ├── chatbot
 |   ├── app.py
 |   ├── core.py
+    ├── mqtt_client.py
 │   └── routes.py
 |
 ├── models
